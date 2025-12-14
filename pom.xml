@@ -24,7 +24,7 @@
 	<repositories>
     <repository>
         <id>nexus</id>
-        <name>Nexus Repository</name>
+        <name>NexusRepo</name>
         <url>http:http://54.196.28.162:8081/repository/NexusRepo/</url>
         <releases>
             <enabled>true</enabled>
