@@ -21,6 +21,19 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+	<repositories>
+    <repository>
+        <id>nexus</id>
+        <name>Nexus Repository</name>
+        <url>http:http://54.196.28.162:8081/repository/NexusRepo/</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
 
     <dependencies>
         <dependency>
