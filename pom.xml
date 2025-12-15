@@ -21,6 +21,32 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+	<repositories>
+    <repository>
+        <id>nexus</id>
+        <name>Nexus Repository</name>
+        <url>http://44.222.104.177:8081/repository/NexusRepo//</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+
+<distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <name>Releases Repository</name>
+        <url>http://44.222.104.177:8081/repository/NexusRepo/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <name>Snapshot Repository</name>
+        <url>http://44.222.104.177:8081/repository/NexusRepo//</url>
+    </snapshotRepository>
+</distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
