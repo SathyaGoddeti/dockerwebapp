@@ -25,7 +25,7 @@
     <repository>
         <id>nexus</id>
         <name>Nexus Repository</name>
-        <url>http://44.222.104.177:8081/repository/NexusRepo//</url>
+        <url>http://107.23.149.39:8081/repository/NexusRepo//</url>
         <releases>
             <enabled>true</enabled>
         </releases>
@@ -39,12 +39,12 @@
     <repository>
         <id>nexus-releases</id>
         <name>Releases Repository</name>
-        <url>http://44.222.104.177:8081/repository/NexusRepo/</url>
+        <url>http://107.23.149.39:8081/repository/NexusRepo//</url>
     </repository>
     <snapshotRepository>
         <id>nexus-snapshots</id>
         <name>Snapshot Repository</name>
-        <url>http://44.222.104.177:8081/repository/NexusRepo//</url>
+        <url>http://107.23.149.39:8081/repository/NexusRepo//</url>
     </snapshotRepository>
 </distributionManagement>
     <dependencies>
